@@ -1,0 +1,42 @@
+  /*  */
+  .logo{
+    font-family:'VektoriW01-Narrow', cursive !important;
+    font-size: 16px;
+    font-weight:900;
+    color: white;
+    margin-right: 5%;
+  }
+
+  mat-toolbar{
+    background-color: black;
+    padding-top: 3%;
+    height: 90px;
+    border-bottom: 1px solid white;
+    position: fixed; 
+    padding-bottom: 30px;
+    z-index: 1000;
+  }
+
+  /* spacer on the nav bar */
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .geistFont{
+    padding-right: 3%;
+    font-family: Geist !important;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+  }
+
+  .geistFont:hover{
+    color: #7cd2dd;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+  }

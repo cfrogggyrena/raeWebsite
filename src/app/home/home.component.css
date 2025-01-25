@@ -1,0 +1,765 @@
+/* 
+.background1 {
+    height: 100vh;
+    width: auto;
+    z-index: 1;
+    align-items: center;
+    padding-top: 5%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ufo {
+    position: relative;
+    top: 30%;
+    left: 45px;
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    z-index: 1000;
+}
+
+.ufo-text {
+    position: absolute;
+    top: 79%;
+    left: 25px;
+    width: 27%;
+    height: auto;
+    color: white;
+    font-family: 'Geist', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+}
+
+.block1 {
+    width: auto;
+    padding: 3%;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Geist", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+    border-bottom: 1px solid white;
+    background-color: black;
+}
+
+.block1Text {
+    padding: 0%;
+    margin: 0%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.flex-container > div {
+    background-color: black;
+    width: 100px;
+    margin: 0%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .ufo {
+        width: 50%;
+        left: 20px;
+    }
+
+    .ufo-text {
+        top: 70%;
+        left: 10px;
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .block1 {
+        font-size: 30px;
+        padding: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .ufo {
+        width: 70%;
+        left: 10px;
+    }
+
+    .ufo-text {
+        top: 60%;
+        left: 5px;
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .block1 {
+        font-size: 20px;
+        padding: 10%;
+    }
+} */
+
+/* .flex-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .flex-container > div {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 8px;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+/* .background1 {
+    max-width: 100%;
+    width: 100%;
+    min-width: 50%;
+    margin-top: 100px;
+    line-height: 75px;
+    font-size: 30px;
+    position: absolute;
+  } */
+
+.wrapper {
+    width: 100%;
+}
+
+/* .background1 {
+    width: 100%;
+    background-attachment: fixed;
+    z-index: 1;
+    padding-top: 6%;
+}
+
+.ufo {
+    width: 90px;
+    z-index: 2;
+    top: 13%;
+    left: 2%;
+    background-attachment: fixed;
+    position: absolute;
+} */
+
+.container {
+    position: relative;
+    /* width: 500px; */
+    width: 100%;
+    height: auto;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 110px;
+    left: 13px;
+    width: 25%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    text-align: center;
+    top: 710px;
+    left: 13px;
+    height: auto;
+    color: white;
+    font-family: 'Geist', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+}
+
+.block1 {
+    width: auto;
+    font-size: 26px;
+    padding: 1%;
+    padding-top: 5%;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Geist", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+    border-bottom: 1px solid white;
+    background-color: black;
+}
+
+
+/* container game one: */
+.overlay-image2 {
+    top: 75%;
+    width: 101%;
+    left: 151px;
+    height: auto;
+}
+
+
+.container-two h2 {
+    color: white;
+    font-family: "Geist", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.container-two h3 {
+    color: white;
+    font-family: "Geist", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.container-two h6 {
+    color: white;
+    font-family: "Geist", serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 14px;
+    transform: rotate(-90deg);
+    padding-bottom: 125px;
+    padding-top: 50px;
+}
+
+
+.container-two h5 {
+    color: white;
+    font-family: "Geist", serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.container-two p {
+    color: white;
+    font-family: "Geist", serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 30px;
+    padding-right: 500px;
+}
+
+.container-two {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "menu content"
+        "menu footer";
+    grid-template-columns: 1fr 8fr;
+    gap: 5px;
+    background-color: black;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+.container-two>div {
+    background-color: black;
+    padding: 10px;
+}
+
+.container-two>div.header {
+    grid-area: header;
+    text-align: center;
+}
+
+.container-two>div.menu {
+    padding-top: 50px;
+    grid-area: menu;
+}
+
+.container-two>div.content {
+    grid-area: content;
+}
+
+.container-two>div.footer {
+    grid-area: footer;
+    padding-left: 190px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+button {
+    color: white !important;
+    font-weight: 100;
+    font-family: "Geist", serif;
+    font-size: 15px;
+    height: 45px;
+    width: 170px;
+}
+
+button:hover {
+    background-color: #7cd2dd !important;
+}
+
+/* finish gc */
+
+/* container game two */
+
+container- .overlay-image3 {
+    top: 75%;
+    width: 101%;
+    left: 151px;
+    height: auto;
+}
+
+
+.container-three h2 {
+    color: white;
+    font-family: "Geist", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.container-three h3 {
+    color: white;
+    font-family: "Geist", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.container-three h6 {
+    color: white;
+    font-family: "Geist", serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 14px;
+    transform: rotate(-90deg);
+    padding-bottom: 30px;
+    padding-top: 1px;
+}
+
+
+.container-three h5 {
+    color: white;
+    font-family: "Geist", serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.container-three p {
+    color: white;
+    font-family: "Geist", serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 30px;
+    padding-right: 500px;
+}
+
+.container-three {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "menu content"
+        "menu footer";
+    grid-template-columns: 1fr 8fr;
+    gap: 5px;
+    background-color: black;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+.container-three>div {
+    background-color: black;
+    padding: 10px;
+}
+
+.container-three>div.header {
+    grid-area: header;
+    text-align: center;
+}
+
+.container-three>div.menu {
+    padding-top: 50px;
+    grid-area: menu;
+}
+
+.container-three>div.content {
+    grid-area: content;
+}
+
+.container-three>div.footer {
+    grid-area: footer;
+    padding-left: 190px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+button {
+    color: white !important;
+    font-weight: 100;
+    font-family: "Geist", serif;
+    font-size: 15px;
+    height: 45px;
+    width: 170px;
+}
+
+button:hover {
+    background-color: #7cd2dd !important;
+}
+/* final gc */
+
+/* container group four */
+/* container game two */
+
+container-
+.overlay-image3 {
+    top: 75%;
+    width: 101%;
+    left: 151px;
+    height: auto;
+}
+
+
+.container-four h2{
+    color: white;
+    font-family: "Geist", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.container-four h3{
+    color: white;
+    font-family: "Geist", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.container-four h6{
+    color: white;
+    font-family: "Geist", serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 14px;
+    transform: rotate(-90deg);
+    padding-bottom: 80px;
+    padding-top: 10px;
+}
+
+
+.container-four h5{
+    color: white;
+    font-family: "Geist", serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.container-four p{
+    color: white;
+    font-family: "Geist", serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 30px;
+    padding-right: 500px;
+} 
+.container-four {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "menu content"
+        "menu footer";
+    grid-template-columns: 1fr 8fr;
+    gap: 5px;
+    background-color: black;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+.container-four>div {
+    background-color: black;
+    padding: 10px;
+}
+
+.container-four>div.header {
+    grid-area: header;
+    text-align: center;
+}
+
+.container-four>div.menu {
+    padding-top: 50px;
+    grid-area: menu;
+}
+
+.container-four>div.content {
+    grid-area: content;
+}
+
+.container-four>div.footer {
+    grid-area: footer;
+    padding-left: 190px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+button {
+    color: white !important;
+    font-weight: 100;
+    font-family: "Geist", serif;
+    font-size: 15px;
+    height: 45px;
+    width: 170px;
+}
+
+button:hover {
+    background-color: #7cd2dd !important;
+}
+/* final gc */
+
+.block2 {
+    width: auto;
+    font-size: 50px;
+    padding: 2%;
+    padding-right: 7%;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Geist", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: right;
+    border-bottom: 1px solid white;
+    background-color: black;
+}
+
+.block2 p{
+    padding-right: 80px;
+}
+.block2 a:hover {
+    color: #7cd2dd !important;
+}
+i {
+    font-size: 60px;
+    position: absolute;
+    bottom: 14px;
+    left: 94%;
+    color: #2d35bf;
+  }
+
+/* resizing (pray for me waaaah) */
+
+@media only screen and (min-width:320px) {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+    .background-image {
+        height: auto;
+        margin-top: 90px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .overlay-image {
+        position: absolute;
+        top: 107px;
+        left: 37%;
+        width: 25%;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 222px;
+        left: 34%;
+        height: auto;
+        font-family: Geist !important;
+        font-weight: 200;
+        font-size: 8px;
+        color: white;
+    }
+
+    .block1 {
+        padding-top: 4%;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:430px) {
+
+    /* smartphones, Android phones, landscape iPhone */
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .background-image {
+        width: 100%;
+        height: auto;
+        margin-top: 90px;
+    }
+
+    .overlay-image {
+        position: absolute;
+        top: 110px;
+        left: 159px;
+        width: 25%;
+        height: auto;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 243px;
+        left: 147px;
+        height: auto;
+        font-family: Geist !important;
+        font-weight: 200;
+        font-size: 10px;
+        color: white;
+    }
+
+    .block1 {
+        padding-top: 3%;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (min-width:480px) {
+
+    /* smartphones, Android phones, landscape iPhone */
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    .background-image {
+        width: 100%;
+        height: auto;
+        margin-top: 90px;
+    }
+
+    .overlay-image {
+        position: absolute;
+        top: 100px;
+        left: 180px;
+        width: 26%;
+        height: auto;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 255px;
+        left: 166px;
+        height: auto;
+        font-family: Geist !important;
+        font-weight: 200;
+        font-size: 10px;
+        color: white;
+    }
+
+    .block1 {
+        padding-top: 4%;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+}
+
+
+@media only screen and (min-width:1024px) {
+    .background-image {
+        width: 100%;
+    }
+
+    .overlay-image {
+        top: 140px;
+        left: 40px;
+        width: 25%;
+        height: auto;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 465px;
+        left: 26px;
+        height: auto;
+        font-family: Geist !important;
+        font-weight: 200;
+        font-size: 20px;
+        color: white;
+    }
+
+    .block1 {
+        padding-top: 3%;
+        padding-left: 28px;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .background-image {
+        width: 100%;
+    }
+
+    .overlay-image {
+        top: 170px;
+        left: 40px;
+        width: 25%;
+        height: auto;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 640px;
+        left: 26px;
+        height: auto;
+        font-family: Geist !important;
+        font-weight: 200;
+        font-size: 20px;
+        color: white;
+    }
+
+    .block1 {
+        padding-top: 3%;
+        padding-left: 28px;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width:1920px) {
+    .background-image {
+        width: 100%;
+    }
+
+    .overlay-image {
+        top: 200px;
+        left: 40px;
+        width: 25%;
+        height: auto;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 820px;
+        left: 26px;
+        height: auto;
+        font-family: Geist !important;
+        font-weight: 200;
+        font-size: 30px;
+        color: white;
+    }
+
+    .block1 {
+        padding-top: 3%;
+        padding-left: 28px;
+        font-size: 70px;
+    }
+}
+
+/* do later im lazy rn */
+@media (min-width:600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+
+@media (min-width:801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}

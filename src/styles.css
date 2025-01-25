@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+
+/* fonts imports */
+@font-face {
+    font-family: vektori;
+    src: url("/public/VektoriW01-SuperNarrow.otf") format("truetype");
+}
+
+@font-face {
+    font-family: atelier;
+    src: url("/public/Atelier.otf") format("truetype");
+}
+
+@font-face {
+    font-family: facundo;
+    src: url("/public/Fontspring-DEMO-facundo-regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: nexa;
+    src: url("/public/Nexa-Book.otf") format("truetype");
+}
+
+@font-face {
+    font-family: Geist;
+    src: url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+} 
+
+@font-face {
+    font-family: Arsenal;
+    src: url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Geist:wght@100..900&display=swap');
+}
+
