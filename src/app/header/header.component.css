@@ -1,42 +1,81 @@
   /*  */
-  .logo{
-    font-family:'VektoriW01-Narrow', cursive !important;
+ 
+  .logo {
+    font-family: 'VektoriW01-Narrow';
     font-size: 16px;
-    font-weight:900;
+    font-weight: 900;
     color: white;
     margin-right: 5%;
-  }
+}
 
-  mat-toolbar{
+mat-toolbar {
     background-color: black;
-    padding-top: 3%;
-    height: 90px;
+    margin-top: 0%;
+    padding-top: 1%;
+    height: auto;
     border-bottom: 1px solid white;
     position: fixed; 
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     z-index: 1000;
-  }
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of elements */
+}
 
-  /* spacer on the nav bar */
-
-  .example-spacer {
+.example-spacer {
     flex: 1 1 auto;
-  }
+}
 
-  .geistFont{
+.geistFont {
     padding-right: 3%;
-    font-family: Geist !important;
+    font-family: "Geist", sans-serif !important;
     font-weight: 100;
     text-transform: uppercase;
     font-size: 16px;
     color: white;
-  }
+}
 
-  .geistFont:hover{
+.geistFont:hover {
     color: #7cd2dd;
-  }
+}
 
-  button {
+button {
     background-color: transparent;
     border: none;
-  }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .logo {
+        font-size: 14px;
+        margin-right: 2%;
+    }
+
+    mat-toolbar {
+        height: auto; /* Adjust height for smaller screens */
+        padding-top: 2%;
+        padding-bottom: 20px;
+    }
+
+    .geistFont {
+        font-size: 14px;
+        padding-right: 2%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 12px;
+        margin-right: 1%;
+    }
+
+    .geistFont {
+        font-size: 12px;
+        padding-right: 1%;
+    }
+
+    mat-toolbar {
+        padding-top: 1%;
+        padding-bottom: 10px;
+    }
+}
+

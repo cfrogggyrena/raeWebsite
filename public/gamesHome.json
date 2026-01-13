@@ -1,0 +1,28 @@
+{
+  "games": [
+    {
+      "number": "01",
+      "gameType": "platformer",
+      "gameBanner": "platformer.png",
+      "title": "Sprout",
+      "role": "Programmer",
+      "description": "Made in 72 hours with only one other game developer, and featured at Toronto FanExpo 2024! In Sprout, players take on the role of a character with the unique ability to toggle between a giant and a tiny form. Embark on a whimsical platforming adventure as Sprout navigates through vibrant and challenging levels, using his size-changing powers to overcome obstacles!"
+    },
+    {
+      "number": "02",
+      "gameType": "puzzle adventure",
+      "gameBanner": "puzzle.png",
+      "title": "Gravity Gone",
+      "role": "Solo Dev",
+      "description": "Using Unreal Engine's Blueprints and various free 3D art assets, I developed a puzzle game and simulated a gravity gun that assists players in their escape from an ominous, cave. The game features cinematics that provides hints and players with an immersive experience."
+    },
+    {
+      "number": "03",
+      "gameType": "adventure",
+      "gameBanner": "halloween.png",
+      "title": "7 Nights of Halloween",
+      "role": "Designer, Programmer",
+      "description": "I participated in the 3 day Cozy Fall Game Jam as the Project Manager, Programmer, and Level Designer of 7 Nights of Halloween, an adventure game made with Unity. During this time, I coordinated a team of 8 game developers to prepare a 2.5D web game."
+    }
+  ]
+}

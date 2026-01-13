@@ -3,7 +3,8 @@ import { HeaderComponent } from "../header/header.component";
 
 @Component({
     selector: 'app-contact',
-    imports: [HeaderComponent],
+    standalone: true,
+    imports: [],
     templateUrl: './contact.component.html',
     styleUrl: './contact.component.css'
 })

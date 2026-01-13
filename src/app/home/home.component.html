@@ -1,102 +1,62 @@
-<div class="container">
-    <img src="background1.png" class="background-image">
-    <img src="ufo.png" class="overlay-image">
-    <p class="overlay-text">Toronto based game developer</p>
-    <!--  -->
-    <div class="block1">
-        <p>my portfolio</p>
+<!-- banner -->
+<div class="banner">
+  <div class="background-container">
+    <img src="background1.png" class="background1">
+    <img src="ufo.png" class="ufo">
+    <div class="ufo-text">
+      <p>Toronto based game developer</p>
     </div>
-    <!--  -->
-    <div class="container-two">
-
-        <div class="menu">
-            <h2>0<br>1</h2>
-            <h6>platformer</h6>
-        </div>
-
-
-        <div class="content">
-            <img src="platformer.png" class="overlay-image2">
-        </div>
-
-        <div class="footer">
-            <h3>Sprout</h3>
-            <h5>programmer</h5>
-            <br>
-            <p>
-                Made in 72 hours with only one other game developer, and featured at
-                Toronto FanExpo 2024! In Sprout, players take on the role of a character
-                with the unique ability to toggle between a giant and a tiny form.
-                Embark on a whimsical platforming adventure as Sprout navigates
-                through vibrant and challenging levels, using his size-changing powers
-                to overcome obstacles!
-            </p>
-            <div class="example-button-row">
-                <button mat-stroked-button>View game</button>
-            </div>
-        </div>
-    </div>
-    <!--  -->
-    <div class="container-three">
-
-        <div class="menu">
-            <h2>0<br>2</h2>
-            <h6>Puzzle<br>adventure</h6>
-        </div>
-        <!--  -->
-        <div class="content">
-            <img src="puzzle.png" class="overlay-image2">
-        </div>
-
-        <div class="footer">
-            <h3>Gravity Gone</h3>
-            <h5>solo dev</h5>
-            <br>
-            <p>
-                Using Unreal Engine's Blueprints and various free 3D art assets, I developed a
-                puzzle game and simulated a gravity gun that assists players in their escape from
-                an ominous, cave. The game features cinematics that provides hints and players with
-                an immersive experience.
-            </p>
-            <div class="example-button-row">
-                <button mat-stroked-button>View game</button>
-            </div>
-        </div>
-    </div>
-    <!--  -->
-
-    <div class="container-four">
-
-        <div class="menu">
-            <h2>0<br>3</h2>
-            <h6>adventure</h6>
-        </div>
-
-
-        <div class="content">
-            <img src="halloween.png" class="overlay-image2">
-        </div>
-
-        <div class="footer">
-            <h3>7 Nights of Halloween</h3>
-            <h5>designer, programmer</h5>
-            <br>
-            <p>
-                I participated in the 3 day Cozy Fall Game Jam as the Project Manager,
-                Programmer, and Level Designer of 7 Nights of Halloween, an adventure
-                game made with Unity. During this time, I coordinated a team of
-                8 game developers to prepare a 2.5D web game.
-            </p>
-            <div class="example-button-row">
-                <button mat-stroked-button>View game</button>
-            </div>
-        </div>
-    </div>
-    <!--  -->
-    <div class="block2">
-        <a>
-            view all games
-        </a>
-        <i class="material-icons">exit_to_app</i>
-    </div>
+  </div>
 </div>
+
+
+<!-- new attempt of title (it works yipee)-->
+<div class="title">
+  <div class="title-wrapper">
+    <h2 class="titleText">My Portfolio</h2>
+  </div>
+</div>
+
+<!-- GAMES section -->
+<section class="grid-container">
+  <!-- Item 1: renders all games as hero cards -->
+  <div class="item item-1">
+    <div class="game-hero">
+      <article class="game-hero-card" *ngFor="let game of gamesHome.games; let i = index">
+        <!-- Left rail -->
+        <aside class="hero-rail">
+
+          <div class="hero-index hero-index--single">
+            <span class="hero-index-padded">{{game.number}}</span>
+          </div>
+
+          <div class="hero-genre">
+            <p class="hero-genre-p">{{game.gameType}}</p>
+          </div>
+        </aside>
+
+        <!-- Top wide banner image -->
+        <div class="hero-media">
+          <img src="{{game.gameBanner}}" loading="lazy" decoding="async" />
+        </div>
+
+        <!-- Bottom dark content band -->
+        <div class="hero-content">
+          <h3 class="hero-title"><em>{{game.title}}</em></h3>
+
+          <div class="hero-role">
+            {{game.role}}
+          </div>
+
+          <p class="hero-desc">
+            {{ game.description }}
+          </p>
+
+          <div class="hero-actions">
+            <button mat-button class="hero-btn">View Game</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,56 @@
+.title {
+  text-align: left;
+  border-bottom: 1px solid white;
+  padding-left: 3%;
+  padding-top: 60px;
+}
+
+.titleText {
+  color: white;
+  font-family: 'Geist', sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 4.5vw;
+  text-align: left;
+  padding: 0%;
+}
+
+
+/* MEDIA RESPONSIVE FOR OTHER SCREENS */
+
+@media screen and (max-width: 768px) {
+
+  .title {
+    padding-left: 0;
+    text-align: center;
+    border-bottom: none;
+  }
+
+  .titleText {
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  
+.grid-container-one {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "box-1 box-2 box-2"
+      "box-1 box-3 box-3";
+  }
+
+  .grid-item {
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .banner {
+    padding-top: 10%;
+  }
+
+  .background1 {
+    height: auto;
+  }
+}
